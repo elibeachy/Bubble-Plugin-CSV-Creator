@@ -1,0 +1,15 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "data (things)",
+        "2": "small business",
+        "3": "productivity"
+    },
+    "demo_page": "https://csvcreator.bubbleapps.io/",
+    "description": "Create a CSV that includes data from linked data types! Whoop whoop!",
+    "image": "//s3.amazonaws.com/appforest_uf/f1581829517956x169528891025415140/LogoMakr_8PAA8z.png",
+    "license": "open_source",
+    "link": "",
+    "name": "CSV Creator",
+    "plugin_instructions": "This plugin has only one action\n\nCREATE A CSV FILE\n\nTo use, add a button to your page and start a workflow when that button is clicked. The action you add will be \n\nData Things > Create a CSV File\n\n\nThe options\n\nFile Name\nThis can be dynamic or you can add static text here.\n\nCSV Headers\nEnter whatever headers you want included in your file with a comma between them like so: Cool Header 1,Great Header 2,Amazing Header 3. The number of headers determines the number of columns that will be generated\n\nColumn \nEnter a dynamic search. Remember that every column should have the same search or your CSV file will be inaccurate. Select a field or select a linked data type and then select a field from that object.\n\n\nEND THE EXPRESSION WITH ':join with line_break'!!!\n\n\nUse Column Checkbox:\nSimply tells the plugin whether you want to use the data in this column or not.\n\n\n\n\n\n"
+}
