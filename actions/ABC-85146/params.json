@@ -1,0 +1,470 @@
+{
+    "category": "data (things)",
+    "display": "Create a dynamic CSV File",
+    "fields": {
+        "AAN": {
+            "caption": "↳ Data",
+            "default_val": "",
+            "doc": "COLUMN 1 DATA REQUIRED! Leaving Column 1 empty will make things break a lot. Ok, now that that is out of the way. \\  You need to do a search for the data you want to export or you can reference a repeating group. The big mambajamba is that you use the same search in every column field for an accurate CSV to be exported.   At the end of your search, select a field and end the expression with ‘:join with line_break’. Ignore the line_break at the level of frustration you want to experience. That’s it! You are ready to roll!",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "long_text": false,
+            "name": "col1",
+            "optional": false,
+            "rank": 6,
+            "value": "_any_thing"
+        },
+        "AAP": {
+            "caption": "COLUMN 1 REQUIRED! Leaving Column 1 empty will make things break a lot. Like, a WHOLE lot! Ok, now that that is out of the way. ",
+            "editor": "Label",
+            "name": "info_1",
+            "rank": 2
+        },
+        "AAQ": {
+            "caption": "File Name",
+            "default_val": "data_export",
+            "doc": "",
+            "editor": "DynamicValue",
+            "name": "file_name",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "AAT": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col2",
+            "optional": true,
+            "rank": 8,
+            "value": "_any_thing"
+        },
+        "AAU": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col3",
+            "optional": true,
+            "rank": 10,
+            "value": "_any_thing"
+        },
+        "AAV": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col4",
+            "optional": true,
+            "rank": 12,
+            "value": "_any_thing"
+        },
+        "AAW": {
+            "caption": "Header 2",
+            "editor": "DynamicValue",
+            "name": "h_02",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "AAX": {
+            "caption": "Header 3",
+            "editor": "DynamicValue",
+            "name": "h_03",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "AAY": {
+            "caption": "Header 4",
+            "editor": "DynamicValue",
+            "name": "h_04",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "AAZ": {
+            "caption": "Header 5",
+            "editor": "DynamicValue",
+            "name": "h_05",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "AAa": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col5",
+            "optional": true,
+            "rank": 14,
+            "value": "_any_thing"
+        },
+        "AAb": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col6",
+            "optional": true,
+            "rank": 16,
+            "value": "_any_thing"
+        },
+        "AAc": {
+            "caption": "Header 6",
+            "editor": "DynamicValue",
+            "name": "h_06",
+            "optional": true,
+            "rank": 15,
+            "value": "text"
+        },
+        "AAd": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col7",
+            "optional": true,
+            "rank": 18,
+            "value": "_any_thing"
+        },
+        "AAe": {
+            "caption": "Header 7",
+            "editor": "DynamicValue",
+            "name": "h_07",
+            "optional": true,
+            "rank": 17,
+            "value": "text"
+        },
+        "AAf": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col8",
+            "optional": true,
+            "rank": 20,
+            "value": "_any_thing"
+        },
+        "AAg": {
+            "caption": "Header 8",
+            "editor": "DynamicValue",
+            "name": "h_08",
+            "optional": true,
+            "rank": 19,
+            "value": "text"
+        },
+        "AAh": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col9",
+            "optional": true,
+            "rank": 22,
+            "value": "_any_thing"
+        },
+        "AAi": {
+            "caption": "Header 9",
+            "editor": "DynamicValue",
+            "name": "h_09",
+            "optional": true,
+            "rank": 21,
+            "value": "text"
+        },
+        "AAj": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col10",
+            "optional": true,
+            "rank": 24,
+            "value": "_any_thing"
+        },
+        "AAk": {
+            "caption": "Header 10",
+            "editor": "DynamicValue",
+            "name": "h_10",
+            "optional": true,
+            "rank": 23,
+            "value": "text"
+        },
+        "AAl": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col11",
+            "optional": true,
+            "rank": 26,
+            "value": "_any_thing"
+        },
+        "AAm": {
+            "caption": "Header 11",
+            "editor": "DynamicValue",
+            "name": "h_11",
+            "optional": true,
+            "rank": 25,
+            "value": "text"
+        },
+        "AAn": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col12",
+            "optional": true,
+            "rank": 28,
+            "value": "_any_thing"
+        },
+        "AAo": {
+            "caption": "Header 12",
+            "editor": "DynamicValue",
+            "name": "h_12",
+            "optional": true,
+            "rank": 27,
+            "value": "text"
+        },
+        "AAp": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col13",
+            "optional": true,
+            "rank": 30,
+            "value": "_any_thing"
+        },
+        "AAq": {
+            "caption": "Header 13",
+            "editor": "DynamicValue",
+            "name": "h_13",
+            "optional": true,
+            "rank": 29,
+            "value": "text"
+        },
+        "AAr": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col14",
+            "optional": true,
+            "rank": 32,
+            "value": "_any_thing"
+        },
+        "AAs": {
+            "caption": "Header 14",
+            "editor": "DynamicValue",
+            "name": "h_14",
+            "optional": true,
+            "rank": 31,
+            "value": "text"
+        },
+        "AAt": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col15",
+            "optional": true,
+            "rank": 34,
+            "value": "_any_thing"
+        },
+        "AAu": {
+            "caption": "Header 15",
+            "editor": "DynamicValue",
+            "name": "h_15",
+            "optional": true,
+            "rank": 33,
+            "value": "text"
+        },
+        "AAz": {
+            "caption": "You need to do a search for the data you want to export OR you can reference a repeating group. The big mambajamba is that you use the same list (be it by search or RG) in every column input for an accurate CSV to be exported. ",
+            "editor": "Label",
+            "name": "info_2",
+            "rank": 3
+        },
+        "ABA": {
+            "caption": "Enter the file name you would like to use. It's not necessary though so totally up to you. Your users will typically get a save dialog box when the csv is done downloading as well.",
+            "editor": "Label",
+            "name": "file_info",
+            "rank": 0
+        },
+        "ACY": {
+            "caption": "Header 1",
+            "default_val": "Column 1",
+            "doc": "COLUMN 1 HEADER REQUIRED",
+            "editor": "DynamicValue",
+            "name": "h_01",
+            "rank": 5,
+            "value": "text"
+        },
+        "ACZ": {
+            "caption": "Header 16",
+            "editor": "DynamicValue",
+            "name": "h_16",
+            "optional": true,
+            "rank": 35,
+            "value": "text"
+        },
+        "ACa": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col16",
+            "optional": true,
+            "rank": 36,
+            "value": "_any_thing"
+        },
+        "ACb": {
+            "caption": "Header 17",
+            "editor": "DynamicValue",
+            "name": "h_17",
+            "optional": true,
+            "rank": 37,
+            "value": "text"
+        },
+        "ACc": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col17",
+            "optional": true,
+            "rank": 38,
+            "value": "_any_thing"
+        },
+        "ACd": {
+            "caption": "Header 18",
+            "editor": "DynamicValue",
+            "name": "h_18",
+            "optional": true,
+            "rank": 39,
+            "value": "text"
+        },
+        "ACe": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col18",
+            "optional": true,
+            "rank": 40,
+            "value": "_any_thing"
+        },
+        "ACf": {
+            "caption": "Header 19",
+            "editor": "DynamicValue",
+            "name": "h_19",
+            "optional": true,
+            "rank": 41,
+            "value": "text"
+        },
+        "ACg": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col19",
+            "optional": true,
+            "rank": 42,
+            "value": "_any_thing"
+        },
+        "ACh": {
+            "caption": "Header 20",
+            "editor": "DynamicValue",
+            "name": "h_20",
+            "optional": true,
+            "rank": 43,
+            "value": "text"
+        },
+        "ACi": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col20",
+            "optional": true,
+            "rank": 44,
+            "value": "_any_thing"
+        },
+        "ACj": {
+            "caption": "Header 21",
+            "editor": "DynamicValue",
+            "name": "h_21",
+            "optional": true,
+            "rank": 45,
+            "value": "text"
+        },
+        "ACk": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col21",
+            "optional": true,
+            "rank": 46,
+            "value": "_any_thing"
+        },
+        "ACl": {
+            "caption": "Header 22",
+            "editor": "DynamicValue",
+            "name": "h_22",
+            "optional": true,
+            "rank": 47,
+            "value": "text"
+        },
+        "ACm": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col22",
+            "optional": true,
+            "rank": 48,
+            "value": "_any_thing"
+        },
+        "ACn": {
+            "caption": "Header 23",
+            "editor": "DynamicValue",
+            "name": "h_23",
+            "optional": true,
+            "rank": 49,
+            "value": "text"
+        },
+        "ACo": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col23",
+            "optional": true,
+            "rank": 50,
+            "value": "_any_thing"
+        },
+        "ACp": {
+            "caption": "Header 24",
+            "editor": "DynamicValue",
+            "name": "h_24",
+            "optional": true,
+            "rank": 51,
+            "value": "text"
+        },
+        "ACq": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col24",
+            "optional": true,
+            "rank": 52,
+            "value": "_any_thing"
+        },
+        "ACr": {
+            "caption": "Header 25",
+            "editor": "DynamicValue",
+            "name": "h_25",
+            "optional": true,
+            "rank": 53,
+            "value": "text"
+        },
+        "ACs": {
+            "caption": "↳ Data",
+            "editor": "DynamicValue",
+            "is_list": true,
+            "name": "col25",
+            "optional": true,
+            "rank": 54,
+            "value": "_any_thing"
+        },
+        "ACt": {
+            "caption": "The header input will add a header to the top of each column in your CSV. You can use this as a switch for your data as well. If the header field is empty that column will be ignored even if you have data selected in the corresponding data field.",
+            "editor": "Label",
+            "name": "info_4",
+            "rank": 4
+        }
+    },
+    "type": "client_side"
+}

@@ -154,59 +154,59 @@ function(properties, context) {
         content += parseCol1.data[i];
         
         if (properties.usecol2){
-            content += ", " + parseCol2.data[i];
+            content += "," + parseCol2.data[i];
         };
 
         if (properties.usecol3){
-            content += ", " + parseCol3.data[i];
+            content += "," + parseCol3.data[i];
         };
 
         if (properties.usecol4){
-            content += ", " + parseCol4.data[i];
+            content += "," + parseCol4.data[i];
         };
         
          if (properties.usecol5){
-            content += ", " + parseCol5.data[i];
+            content += "," + parseCol5.data[i];
         };
         
          if (properties.usecol6){
-            content += ", " + parseCol6.data[i];
+            content += "," + parseCol6.data[i];
         };
         
          if (properties.usecol7){
-            content += ", " + parseCol7.data[i];
+            content += "," + parseCol7.data[i];
         };
         
          if (properties.usecol8){
-            content += ", " + parseCol8.data[i];
+            content += "," + parseCol8.data[i];
         };
         
          if (properties.usecol9){
-            content += ", " + parseCol9.data[i];
+            content += "," + parseCol9.data[i];
         };
         
          if (properties.usecol10){
-            content += ", " + parseCol10.data[i];
+            content += "," + parseCol10.data[i];
         };               
         
          if (properties.usecol11){
-            content += ", " + parseCol11.data[i];
+            content += "," + parseCol11.data[i];
         };
         
          if (properties.usecol12){
-            content += ", " + parseCol12.data[i];
+            content += "," + parseCol12.data[i];
         };
         
          if (properties.usecol13){
-            content += ", " + parseCol13.data[i];
+            content += "," + parseCol13.data[i];
         };
         
          if (properties.usecol14){
-            content += ", " + parseCol14.data[i];
+            content += "," + parseCol14.data[i];
         };
         
          if (properties.usecol15){
-            content += ", " + parseCol15.data[i];
+            content += "," + parseCol15.data[i];
         };        
         content += "\n";
                         
