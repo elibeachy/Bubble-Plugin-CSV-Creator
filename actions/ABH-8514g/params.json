@@ -1,0 +1,29 @@
+{
+    "category": "plugins",
+    "display": "Create CSV from JSON",
+    "fields": {
+        "ABG": {
+            "caption": "JSON content",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "long_text": true,
+            "name": "source_JSON",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABI": {
+            "caption": "File Name",
+            "editor": "DynamicValue",
+            "name": "file_name",
+            "rank": 0,
+            "value": "text"
+        },
+        "ABJ": {
+            "caption": "This action makes use of the operator :format as text on a list. You will need to send format the list content as a JSON object and use a ',' as the delimiter. ",
+            "editor": "Label",
+            "name": "info",
+            "rank": 1
+        }
+    },
+    "type": "client_side"
+}

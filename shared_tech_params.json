@@ -6,6 +6,7 @@
         }
     },
     "dependencies": {
+        "plugin_api_version": "1",
         "use_jquery": true
     }
 }
