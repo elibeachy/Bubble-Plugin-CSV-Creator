@@ -7,7 +7,7 @@ function(properties, context) {
     
     let content = JSON.parse(`[${properties.source_JSON}]`);
     
-	csvFile = Papa.unparse(content);
+	csvFile = "\uFEFF" + Papa.unparse(content,{delimiter: delimiter});
     
     console.log(csvFile)
     
