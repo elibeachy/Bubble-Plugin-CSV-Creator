@@ -1,32 +1,36 @@
 function(properties, context) {
 
-    
-    let csvFile;
+    let delimiter = properties.delimiter === 'tab' ? '\t' : properties.delimiter,	
+    	csvFile,
+		content = JSON.parse(`[${properties.source_JSON.replace(/(\r\n|\n|\r)/gm,"")}]`),
+    	filename = properties.file_name + ".csv",
+        mimetype = 'text/csv';
 
-  //Load any data 
     
-    let content = JSON.parse(`[${properties.source_JSON}]`);
+    // USE PAPA TO UNPARSE THE JS Array
     
-	csvFile = Papa.unparse(content);
+    csvFile = Papa.unparse(content,{delimiter: delimiter});
     
-    console.log(csvFile)
+
+    
+    
+    // RUN THE SAVE FILE FUNCTION
+    
+    openSaveFileDialog(csvFile, filename, mimetype);
     
     
     // CREATE THE DOWNLOAD
     
+    function openSaveFileDialog (data, filename, mimetype) {
 
-    var filename = properties.file_name + ".csv";
-	var data = csvFile;
-    var mimetype = 'text/csv';
-    
-        function openSaveFileDialog (data, filename, mimetype) {
+        if (!data) return;
 
-          if (!data) return;
-
-          var blob = data.constructor !== Blob
-            ? new Blob([data], {type: mimetype || 'application/octet-stream'})
-            : data ;
-
+        var blob = data.constructor !== Blob
+        ? new Blob([data], {type: mimetype || 'application/octet-stream'})
+        : data ;
+      
+          // DOWNLOAD FILE 
+        
           if (navigator.msSaveBlob) {
             navigator.msSaveBlob(blob, filename);
             return;
@@ -46,8 +50,21 @@ function(properties, context) {
           setTimeout(url.revokeObjectURL.bind(url, objectURL));
 
         }
-
-    openSaveFileDialog(data, filename, mimetype);
     
 
+    // Will use this function to post to an endpoint
+    
+    function uploadCallback(err, url){
+        
+        if (url) {
+            
+            alert(url)
+     
+        } else {
+            
+            alert(err)
+        }
+        
+    }
+    
 }

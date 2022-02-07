@@ -1,0 +1,30 @@
+{
+    "add_is_visible": false,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 20,
+        "width": 100
+    },
+    "display": "CSV Creator",
+    "events": {
+        "ABi": {
+            "caption": "has created your file",
+            "name": "has_created_your_file"
+        }
+    },
+    "icon": "ion-android-checkbox-blank",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ABr": {
+            "caption": "created File",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "name": "created_file",
+            "value": "file"
+        }
+    }
+}

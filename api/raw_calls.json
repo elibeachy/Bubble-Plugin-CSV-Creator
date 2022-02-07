@@ -1,0 +1,93 @@
+{
+    "calls": {
+        "ABu": {
+            "data_type": "text",
+            "initialized": true,
+            "method": "post",
+            "name": "New File from Base64",
+            "no_types": true,
+            "params": {
+                "ABw": {
+                    "doc": "File name of the created file",
+                    "key": "name",
+                    "optional": false,
+                    "private": true,
+                    "value": ""
+                },
+                "ABx": {
+                    "doc": "This should be the 'base64 Text' returned from the plugin action. ",
+                    "key": "contents",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 0,
+            "should_reinitialize": true,
+            "url": "[websiteHomeUrl]fileupload",
+            "url_params": {
+                "ABv": {
+                    "doc": "Add website home url here",
+                    "key": "websiteHomeUrl",
+                    "private": true,
+                    "value": ""
+                }
+            }
+        },
+        "ACS": {
+            "0": "A",
+            "1": "C",
+            "2": "R",
+            "data_type": "JSON",
+            "initialized": true,
+            "method": "post",
+            "name": "New Private File from Base64 ",
+            "params": {
+                "ABw": {
+                    "doc": "File name of the created file",
+                    "key": "name",
+                    "optional": false,
+                    "private": true,
+                    "value": ""
+                },
+                "ABx": {
+                    "doc": "This should be the 'base64 Text' returned from the plugin action. ",
+                    "key": "contents",
+                    "private": true,
+                    "querystring": false,
+                    "value": ""
+                },
+                "ACT": {
+                    "doc": "Set to FALSE for non private file. Set to TRUE for private file. If set to TRUE the 'attach_to' parameter must include the unique Id of the thing to which you would like to attach the file. ",
+                    "key": "private",
+                    "optional": false,
+                    "private": true,
+                    "value": "FALSE"
+                },
+                "ACU": {
+                    "doc": "This parameter is required 'private' is set to TRUE.",
+                    "key": "attach_to",
+                    "optional": true,
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "publish_as": "action",
+            "rank": 1,
+            "ret_value": "api.1582601241392x653181519983018000.plugin_api.ACS",
+            "should_reinitialize": true,
+            "types": "{\"plugin_api.ACS\":{\"caption\":\"New Private File from Base64 \",\"fields\":{\"_p_body\":{\"ret_value\":\"text\",\"caption\":\"body\",\"sample_value\":\"https://csvcreator.bubbleapps.io/version-test/fileupload/f1632416778434x716174107040414200/name.csv\",\"path\":[\"body\"]},\"_p_error.status_code\":{\"ret_value\":\"number\",\"caption\":\"error status_code\",\"sample_value\":200,\"path\":[\"error\",\"status_code\"]},\"_p_error.status_message\":{\"ret_value\":\"text\",\"caption\":\"error status_message\",\"sample_value\":\"OK\",\"path\":[\"error\",\"status_message\"]},\"_p_error.body\":{\"ret_value\":\"text\",\"caption\":\"error body\",\"sample_value\":\"\\\"\\\\\\\"https://csvcreator.bubbleapps.io/version-test/fileupload/f1632416778434x716174107040414200/name.csv\\\\\\\"\\\"\",\"path\":[\"error\",\"body\"]},\"_p_returned_an_error\":{\"ret_value\":\"boolean\",\"caption\":\"returned_an_error\",\"sample_value\":false,\"path\":[\"returned_an_error\"]}}}}",
+            "url": "[websiteHomeUrl]fileupload",
+            "url_params": {
+                "ABv": {
+                    "doc": "Add website home url here",
+                    "key": "websiteHomeUrl",
+                    "private": true,
+                    "value": ""
+                }
+            },
+            "wrap_error": true
+        }
+    },
+    "human": "CSV Creator"
+}
